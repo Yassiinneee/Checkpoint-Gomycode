@@ -1,0 +1,92 @@
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french,english]{babel}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{lipsum}
+
+% Mise en page
+\geometry{margin=2.5cm}
+\setstretch{1.3}
+
+% Style des titres
+\titleformat{\section}{\Large\bfseries}{\thesection.}{0.5em}{}
+
+% En-tête
+\title{\textbf{Checkpoint – Web Development Basics}}
+\author{Yassine Kalthoum \\ MSC: Software Engineering}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\section{How does the web work?}
+
+The web works through communication between clients (web browsers) and servers using the Internet.\\[0.3cm]
+Here’s the process step-by-step:
+
+\begin{enumerate}
+    \item I type a URL (\texttt{www.gomycode.com}) into the browser.
+    \item The browser sends a request to a DNS server to find the IP address of that website.
+    \item Once it finds the IP, the browser sends an HTTP/HTTPS request to the web server.
+    \item The server processes the request (for example, accessing a database) and sends back a response — usually HTML, CSS, and JavaScript files.
+    \item The browser interprets these files and displays the web page.
+\end{enumerate}
+
+\noindent
+\textbf{In conclusion:}\\
+Browser $\rightarrow$ Internet $\rightarrow$ Server $\rightarrow$ Response $\rightarrow$ Display Web Page
+
+\newpage
+
+\section{What do you need to be a web developer?}
+
+To become a web developer, you need both technical skills and tools.
+
+\subsection*{Core Skills}
+\begin{itemize}
+    \item HTML → structure of web pages
+    \item CSS → design and layout
+    \item JavaScript → interactivity and logic
+\end{itemize}
+
+\subsection*{Advanced Skills (for professional work)}
+\begin{itemize}
+    \item Frontend frameworks: React, Angular, or Vue.js
+    \item Backend: Node.js, PHP, Python (Django/Flask), or Java (Spring)
+    \item Databases: MySQL, MongoDB, PostgreSQL
+    \item APIs: REST or GraphQL
+    \item Version Control: Git \& GitHub
+    \item Deployment Tools: Docker, Cloud services (AWS, Azure, Google Cloud)
+\end{itemize}
+
+\subsection*{Tools}
+\begin{itemize}
+    \item A code editor (like VS Code / Notepad++)
+    \item A browser (like Chrome) for testing
+    \item Command line (Terminal) for running scripts
+    \item Internet connection
+\end{itemize}
+
+\newpage
+
+\section{Why did you choose to learn web development?}
+
+Here are common (and strong) reasons that I can adapt to my own motivation:
+
+\begin{itemize}
+    \item \textbf{Career opportunities:} Web development offers high-demand jobs and freelancing options.
+    \item \textbf{It’s everywhere:} Every company needs a website or web app.
+    \item \textbf{Creativity \& logic:} I can create real products — from simple pages to complex applications.
+    \item \textbf{Constant learning:} The web evolves fast, so I always learn new tools and technologies.
+    \item \textbf{Freedom:} I can work remotely, build personal projects, and start my own business.
+\end{itemize}
+
+\end{document}
